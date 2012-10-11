@@ -9,3 +9,13 @@ background-repeat: repeat-x;
 -moz-border-radius-topright: 10px;
 border-top-left-radius: 10px;
 border-top-right-radius: 10px;
+
+/* header background gradient */
+background: #eb1515; /* Old browsers */
+background: -moz-linear-gradient(top,  #eb1515 0%, #f59999 55%, #f9c1c1 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eb1515), color-stop(55%,#f59999), color-stop(100%,#f9c1c1)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #eb1515 0%,#f59999 55%,#f9c1c1 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #eb1515 0%,#f59999 55%,#f9c1c1 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #eb1515 0%,#f59999 55%,#f9c1c1 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #eb1515 0%,#f59999 55%,#f9c1c1 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb1515', endColorstr='#f9c1c1',GradientType=0 ); /* IE6-9 */
